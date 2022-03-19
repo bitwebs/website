@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import Header from "../../../components/header/Header";
-import Footer from "../../../components/footer/Footer";
-import CopyRight from "../../../components/footer/CopyRight";
-import BlogDetailsForm from "../../../components/form/BlogDetailsForm";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
+import CopyRight from "../../components/footer/CopyRight";
+import BlogDetailsForm from "../../components/form/BlogDetailsForm";
 
 const Manifesto = () => {
   return (

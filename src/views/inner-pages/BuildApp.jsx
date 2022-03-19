@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import Header from "../../../components/header/Header";
-import FaqClassic from "../../../components/faq/FaqClassicTwo";
-import Footer from "../../../components/footer/Footer";
-import CopyRight from "../../../components/footer/CopyRight";
-import BlogStyle4 from "../../../components/blog/BlogStyle4";
-import FeatureThree from "../../../components/features/FeatureThree";
-import FeatureFive from "../../../components/features/FeatureFive";
-import CallToActionFour from "../../../components/call-to-action/CallToActionFour";
+import Header from "../../components/header/Header";
+import FaqClassic from "../../components/faq/FaqClassicTwo";
+import Footer from "../../components/footer/Footer";
+import CopyRight from "../../components/footer/CopyRight";
+import BlogStyle4 from "../../components/blog/BlogStyle4";
+import FeatureThree from "../../components/features/FeatureThree";
+import FeatureFive from "../../components/features/FeatureFive";
+import CallToActionFour from "../../components/call-to-action/CallToActionFour";
 
 const BuildApp = () => {
   return (
