@@ -121,7 +121,7 @@ const Build = [
 const BIQ = [
   {
     name: "About BIQ",
-    routerPath: "/biq/about",
+    routerPath: "/biq",
   },
   {
     name: "Wallets",
