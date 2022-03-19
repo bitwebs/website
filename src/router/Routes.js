@@ -37,9 +37,9 @@ import BuildDapp from "../views/inner-pages/features/BuildApp";
 import Dao from "../views/pages/Dao";
 
 // BIQ Routes 
-import BIQ from "../views/pages/Biq"
-import BIQWallets from "../views/pages/BiqWallets"
-import BIQExchanges from "../views/pages/BiqExchanges"
+import BIQ from "../views/pages/Biq";
+import BIQWallets from "../views/pages/BiqWallets";
+import BIQExchanges from "../views/pages/BiqExchanges";
 
 // Other Routes
 import Paper from "../views/inner-pages/features/Paper";
