@@ -29,7 +29,7 @@ const BitTrees = () => {
       <HeaderTechnology />
       {/* End Header Landing Doc Signature */}
 
-      <HeroBannerBitTrees />
+      <HeroBannerBitTree />
       {/* End Hero Banner BitTrees */}
 
       {/* =============================================

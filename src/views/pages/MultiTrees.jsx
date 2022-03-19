@@ -29,7 +29,7 @@ const MultiTrees = () => {
       <HeaderTechnology />
       {/* End Header Landing Doc Signature */}
 
-      <HeroBannerMultiTrees />
+      <HeroBannerMultiTree />
       {/* End Hero Banner MultiTrees */}
 
       {/* =============================================

@@ -29,7 +29,7 @@ const SmartChains = () => {
       <HeaderTechnology />
       {/* End Header Landing Doc Signature */}
 
-      <HeroBannerSmartChains />
+      <HeroBannerSmartChain />
       {/* End Hero Banner SmartChains */}
 
       {/* =============================================

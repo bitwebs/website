@@ -29,7 +29,7 @@ const BitTries = () => {
       <HeaderTechnology />
       {/* End Header Landing Doc Signature */}
 
-      <HeroBannerBitTries />
+      <HeroBannerBitTrie />
       {/* End Hero Banner BitTries */}
 
       {/* =============================================
