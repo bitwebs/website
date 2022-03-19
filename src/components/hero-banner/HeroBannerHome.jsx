@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const HeroBannerTwelve= () => {
+const HeroBannerHome = () => {
   return (
     <div className="hero-banner-twelve lg-container" id="home">
       <div className="container">
@@ -96,4 +96,4 @@ const HeroBannerTwelve= () => {
   );
 };
 
-export default HeroBannerTwelve;
+export default HeroBannerHome;

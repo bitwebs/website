@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HeaderLandingWebsiteBuilder from "../../components/header/landing/HeaderLandingWebsiteBuilder";
-import HeroBannerTwelve from "../../components/hero-banner/HeroBannerTwelve";
+import HeaderFour from "../../components/header/landing/HeaderFour";
+import HeroBannerHome from "../../components/hero-banner/HeroBannerHome";
 import CounterSix from "../../components/counter/CounterSix";
 import FooterSeven from "../../components/footer/FooterSeven";
 import CopyRightThree from "../../components/footer/CopyRightThree";
@@ -16,18 +16,18 @@ const WebsiteBuilderLanding = () => {
     <div className="main-page-wrapper p0 font-gordita">
       <Helmet>
         <title>
-          Website Builder Landing || Deski-Saas & Software React Template
+          BitWeb | a bit of a revolution.
         </title>
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderLandingWebsiteBuilder />
+      <HeaderFour />
       {/* End Header for website builder landing */}
 
       {/* 	=============================================
         Theme Hero Banner
         ==============================================  */}
-      <HeroBannerTwelve />
+      <HeroBannerHome />
 
       {/* =============================================
         Counter Style Three

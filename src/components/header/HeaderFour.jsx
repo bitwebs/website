@@ -45,13 +45,13 @@ const HeaderFour = () => {
 
                   <ul className="right-button-group d-flex align-items-center justify-content-center">
                     <li>
-                      <Link to="login" className="signIn-action">
-                        Login
+                      <Link to="/login" className="signIn-action">
+                        DAO Login
                       </Link>
                     </li>
                     <li>
-                      <Link to="signup" className="theme-btn-five">
-                        Create your event
+                      <Link to="/paper" className="theme-btn-five">
+                        Read Paper
                       </Link>
                     </li>
                   </ul>

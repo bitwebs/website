@@ -15,26 +15,26 @@ const App = () => {
   return (
     <>
       <Helmet>
-        <title>Deski - Saas & Software React Template</title>
+        <title>BitWeb | a bit of a revolution.</title>
         <meta property="og:site_name" content="deski" />
         <meta
           property="og:url"
-          content="https://themeforest.net/user/ib-themes"
+          content="https://bitwebs.org"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Deski: Creative Saas & Software React Template"
+          content="BitWeb | a bit of a revolution."
         />
         <meta
           name="keywords"
-          content="agency, bootstrap 5, business, clean, corporate, creative, fullpage, minimal, modern, multipurpose, parallax, personal, photography, portfolio, showcase, Digital marketing agency, Digital marketing company, Digital marketing services, sass, software company"
+          content="bitweb, web4"
         />
         <meta
           name="description"
-          content="Deski is a creative saas and software React template designed for saas and software Agency websites."
+          content="The BitWeb and Web4 have arrived. We're taking the web back and we're doing it together."
         />
-        <meta name="description" content="Portfolio & Agency React Template" />
+        <meta name="description" content="The BitWeb and Web4 have arrived. We're taking the web back and we're doing it together." />
       </Helmet>
       {/* End Seo Helmt */}
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-router-dom";
 
-const HeaderLandingWebsiteBuilder = () => {
+const HeaderHome = () => {
   // For Mobile  menu
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -166,4 +166,4 @@ const HeaderLandingWebsiteBuilder = () => {
   );
 };
 
-export default HeaderLandingWebsiteBuilder;
+export default HeaderHome;
