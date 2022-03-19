@@ -10,7 +10,7 @@ import FeatureThree from "../../../components/features/FeatureThree";
 import FeatureFive from "../../../components/features/FeatureFive";
 import CallToActionFour from "../../../components/call-to-action/CallToActionFour";
 
-const SolutionMangement = () => {
+const Browse = () => {
   return (
     <div className="main-page-wrapper">
       <Helmet>
@@ -207,4 +207,4 @@ const SolutionMangement = () => {
   );
 };
 
-export default SolutionMangement;
+export default Browse;

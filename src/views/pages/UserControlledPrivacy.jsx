@@ -9,7 +9,7 @@ import CallToActionFour from "../../components/call-to-action/CallToActionFour";
 import Footer from "../../components/footer/Footer";
 import CopyRight from "../../components/footer/CopyRight";
 
-const ProjectManagement = () => {
+const UserControlledPrivacy = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
   };
@@ -641,4 +641,4 @@ const ProjectManagement = () => {
   );
 };
 
-export default ProjectManagement;
+export default UserControlledPrivacy;

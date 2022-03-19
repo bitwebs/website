@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import HeaderLandingDocSignature from "../../components/header/landing/HeaderLandingDocSignature";
-import HeroBannerEleven from "../../components/hero-banner/HeroBannerEleven";
+import HeaderTechnology from "../../components/header/landing/HeaderTechnology";
+import HeroBannerHoriz0n from "../../components/hero-banner/HeroBannerHoriz0n";
 import FancyFeatureTewentySeven from "../../components/features/FancyFeatureTewentySeven";
 import FancyFeatureTewentySix from "../../components/features/FancyFeatureTewentySix";
 import BrandSix from "../../components/brand/BrandSix";
@@ -15,7 +15,7 @@ import FancyFeatureTewentyNine from "../../components/features/FancyFeatureTewen
 import FooterSeven from "../../components/footer/FooterSeven";
 import CopyRightThree from "../../components/footer/CopyRightThree";
 
-const DocSignatureLanding = () => {
+const Horiz0n = () => {
   return (
     <div className="main-page-wrapper font-gordita">
       <Helmet>
@@ -29,8 +29,8 @@ const DocSignatureLanding = () => {
       <HeaderLandingDocSignature />
       {/* End Header Landing Doc Signature */}
 
-      <HeroBannerEleven />
-      {/* End Hero Banner Eleven */}
+      <HeroBannerHoriz0n />
+      {/* End Hero Banner Horiz0n */}
 
       {/* =============================================
 		Fancy Feature Twenty Six
@@ -309,4 +309,4 @@ const DocSignatureLanding = () => {
   );
 };
 
-export default DocSignatureLanding;
+export default Horiz0n;

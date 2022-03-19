@@ -10,7 +10,7 @@ import CopyRightThree from "../../components/footer/CopyRightThree";
 import FancyFeatureTewentyThree from "../../components/features/FancyFeatureTewentyThree";
 import PricingSeven from "../../components/pricing/PricingSeven";
 
-const MobileAppLanding = () => {
+const Dao = () => {
   return (
     <div className="main-page-wrapper font-gordita">
       <Helmet>
@@ -500,4 +500,4 @@ const MobileAppLanding = () => {
   );
 };
 
-export default MobileAppLanding;
+export default Dao;

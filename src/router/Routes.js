@@ -33,8 +33,8 @@ import Horiz0n from "../views/pages/Horiz0n";
 
 // Build Routes
 import Build from "../views/inner-pages/other/Build";
-import DevTools from "../views/inner-pages/features/DevTools";
-import BuildDapp from "../views/inner-pages/features/BuildApp";
+import DevTools from "../views/inner-pages/DevTools";
+import BuildDapp from "../views/inner-pages/BuildApp";
 
 // DAO Routes
 import Dao from "../views/pages/Dao";
@@ -45,10 +45,10 @@ import BiqWallets from "../views/pages/BiqWallets";
 import BiqExchanges from "../views/pages/BiqExchanges";
 
 // Other Routes
-import Paper from "../views/inner-pages/features/Paper";
-import Manifesto from "../views/inner-pages/features/Manifesto";
+import Paper from "../views/inner-pages/Paper";
+import Manifesto from "../views/inner-pages/Manifesto";
 import Roadmap from "../views/inner-pages/other/Roadmap";
-import Browse  from "../views/inner-pages/features/Browse";
+import Browse  from "../views/inner-pages/Browse";
 
 // Not Found Page
 import NotFound from "../views/NotFound";

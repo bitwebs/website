@@ -6,7 +6,7 @@ import HeaderPopupForm from "../../form/HeaderPopupForm";
 
 Modal.setAppElement("#root");
 
-const HeaderLandingDocSignature = () => {
+const HeaderTechnology = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -129,4 +129,4 @@ const HeaderLandingDocSignature = () => {
   );
 };
 
-export default HeaderLandingDocSignature;
+export default HeaderTechnology;

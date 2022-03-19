@@ -11,7 +11,7 @@ import FacnyVideoTwo from "../../components/video/FacnyVideoTwo";
 import FacnyVideoThree from "../../components/video/FacnyVideoThree";
 import VideoGallery from "../../components/video/VideoGallery";
 
-const VideoEditorLanding = () => {
+const BiqExchanges = () => {
   // For header select menu
   const [click1, setClick1] = useState(false);
   const handleClick1 = () => setClick1(!click1);
@@ -264,4 +264,4 @@ const VideoEditorLanding = () => {
   );
 };
 
-export default VideoEditorLanding;
+export default BiqExchanges;

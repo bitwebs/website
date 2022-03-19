@@ -11,7 +11,7 @@ import TestimonialSeven from "../../components/testimonial/TestimonialSeven";
 import CallToActionSeven from "../../components/call-to-action/CallToActionSeven";
 import FancyFeatureThirtyTwo from "../../components/features/FancyFeatureThirtyTwo";
 
-const WebsiteBuilderLanding = () => {
+const Main = () => {
   return (
     <div className="main-page-wrapper p0 font-gordita">
       <Helmet>
@@ -187,4 +187,4 @@ const WebsiteBuilderLanding = () => {
   );
 };
 
-export default WebsiteBuilderLanding;
+export default Main;

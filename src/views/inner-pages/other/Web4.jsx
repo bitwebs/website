@@ -7,7 +7,7 @@ import CopyRightFour from "../../../components/footer/CopyRightFour";
 import FancyFeatureThirtyFive from "../../../components/features/FancyFeatureThirtyFive";
 import CounterSix from "../../../components/counter/CounterSix";
 
-const ServiceV3 = () => {
+const Web4 = () => {
   return (
     <div className="main-page-wrapper">
       <Helmet>
@@ -202,4 +202,4 @@ const ServiceV3 = () => {
   );
 };
 
-export default ServiceV3;
+export default Web4;

@@ -9,7 +9,7 @@ import FeatureSixV2 from "../../../components/features/FeatureSixV2";
 import CallToActionThree from "../../../components/call-to-action/CallToActionThree";
 import FancyFeatureThirtyThree from "../../../components/features/FancyFeatureThirtyThree";
 
-const ServiceV1 = () => {
+const Roadmap = () => {
   return (
     <div className="main-page-wrapper p0">
       <Helmet>
@@ -209,4 +209,4 @@ const ServiceV1 = () => {
   );
 };
 
-export default ServiceV1;
+export default Roadmap;
