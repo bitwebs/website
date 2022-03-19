@@ -10,261 +10,126 @@ import {
   SidebarContent,
 } from "react-pro-sidebar";
 
-const HomeMobileMenu = [
+const Web4Dropdown= [
   {
-    name: "Event Organiser",
-    routerPath: "/event-organizer",
+    routerPath: "/web4/particalized-data-distribution",
+    name: "Particalized Data Distribution",
   },
   {
-    name: "Project Management",
-    routerPath: "/project-management",
+    routerPath: "/web4/decentralized-serverless-green",
+    name: "Decentralized, Serverless & Green",
   },
   {
-    name: "Customer Support",
-    routerPath: "/customer-support",
+    routerPath: "/web4/censorship-resistant",
+    name: "Censorship Resistant",
   },
   {
-    name: "Doc landing",
-    routerPath: "/doc-landing",
+    routerPath: "/web4/user-controlled-privacy",
+    name: "User-Controlled Privacy",
   },
   {
-    name: "Product landing",
-    routerPath: "/product-landing",
+    routerPath: "/web4/community-governed-applications",
+    name: "Community-Governed Applications",
   },
   {
-    name: "Product landing Dark",
-    routerPath: "/product-landing-dark",
+    routerPath: "/web4/globally-scaleable-applications",
+    name: "Globally Scaleable Applications",
   },
   {
-    name: "Note Taking App landing",
-    routerPath: "/note-taking-landing",
+    routerPath: "/web4/transport-agnostic",
+    name: "Transport Agnostic",
   },
   {
-    name: "Video Editor Landing",
-    routerPath: "/video-editor-landing",
+    routerPath: "/web4/user-controlled-identity",
+    name: "User-Controlled Identity",
   },
   {
-    name: "Appointment Scheduling",
-    routerPath: "/appointment-scheduling",
-  },
-  {
-    name: "Mobile App",
-    routerPath: "/mobile-app-landing",
-  },
-  {
-    name: "Doc Signature",
-    routerPath: "/doc-signature",
-  },
-  {
-    name: "Website Builder",
-    routerPath: "/website-builder",
-  },
-  {
-    name: "Coming Soon",
-    routerPath: "/coming-soon",
+    routerPath: "/web4/application-interoperability",
+    name: "Application Interoperability",
   },
 ];
 
-const Pricing = [
+const Technology = [
   {
-    name: "Customer Support",
-    routerPath: "/pricing-cs",
+    name: "BIT Protocol",
+    routerPath: "/technology/bit-protocol",
   },
   {
-    name: "Event Organiser",
-    routerPath: "/pricing-eo",
+    name: "Bit DHT",
+    routerPath: "/technology/bitdht",
   },
   {
-    name: "Project Management",
-    routerPath: "/pricing-pm",
-  },
-];
-const AboutUs = [
-  {
-    name: "Customer Support",
-    routerPath: "/about-cs",
+    name: "BitSwarm",
+    routerPath: "/technology/bitswarm",
   },
   {
-    name: "Event Organiser",
-    routerPath: "/about-eo",
+    name: "UniChains",
+    routerPath: "/technology/unichains",
   },
   {
-    name: "Project Management",
-    routerPath: "/about-pm",
+    name: "BitTries",
+    routerPath: "/technology/bittries",
   },
   {
-    name: "Documentation",
-    routerPath: "/about-doc",
-  },
-];
-const ContactUs = [
-  {
-    name: "Custom Support",
-    routerPath: "/contact-cs",
+    name: "BitTrees",
+    routerPath: "/technology/bittrees",
   },
   {
-    name: "Event Organizer",
-    routerPath: "/contact-eo",
+    name: "BitDrives",
+    routerPath: "/technology/bitdrives",
   },
   {
-    name: "Project Management",
-    routerPath: "/contact-pm",
+    name: "BitStream and MultiChains",
+    routerPath: "/technology/bitstream",
   },
   {
-    name: "Documentation",
-    routerPath: "/contact-doc",
-  },
-];
-const Team = [
-  {
-    name: "Team Version 01",
-    routerPath: "/team-1",
+    name: "MultiTrees",
+    routerPath: "/technology/multitrees",
   },
   {
-    name: "Team Version 02",
-    routerPath: "/team-2",
+    name: "SmartChains",
+    routerPath: "/technology/smartchains",
   },
   {
-    name: "Team Version 03",
-    routerPath: "/team-3",
+    name: "BitNames",
+    routerPath: "/technology/bitnames",
   },
   {
-    name: "Team Version 04",
-    routerPath: "/team-4",
-  },
-  {
-    name: "Team Version 05",
-    routerPath: "/team-5",
-  },
-  {
-    name: "Team Version 06",
-    routerPath: "/team-6",
-  },
-  {
-    name: "Team Details",
-    routerPath: "/team-details-v1",
-  },
-  {
-    name: "Team Details Slider",
-    routerPath: "/team-details-v2",
+    name: "Horiz0n",
+    routerPath: "/technology/horiz0n",
   },
 ];
-const Services = [
+const Build = [
   {
-    name: "Service Version 01",
-    routerPath: "service-v1",
+    name: "Build A Web4 App",
+    routerPath: "/build/dapp",
   },
   {
-    name: "Service Version 02",
-    routerPath: "service-v2",
+    name: "Developer Docs",
+    routerPath: "https://docs.bitwebs.org",
   },
   {
-    name: "Service Version 03",
-    routerPath: "service-v3",
+    name: "Developer Tools",
+    routerPath: "/build/tools",
   },
   {
-    name: "Service Version 04",
-    routerPath: "service-v4",
-  },
-  {
-    name: "Service Details",
-    routerPath: "service-details",
+    name: "GitHub",
+    routerPath: "https://github.com/bitwebs",
   },
 ];
-const Miscellaneous = [
+
+const BIQ = [
   {
-    name: "Terms & Condition)",
-    routerPath: "terms-conditions",
+    name: "About BIQ",
+    routerPath: "/biq/about",
   },
   {
-    name: "Login",
-    routerPath: "/login",
+    name: "Wallets",
+    routerPath: "/biq/wallets",
   },
   {
-    name: "Signup",
-    routerPath: "/signup",
-  },
-  {
-    name: "404",
-    routerPath: "/404",
-  },
-];
-const Portfolio = [
-  {
-    name: "Classic Style",
-    routerPath: "/classic-style",
-  },
-  {
-    name: "Grid 2 Columns",
-    routerPath: "grid-two-col",
-  },
-  {
-    name: "Grid 3 Columns",
-    routerPath: "grid-three-col",
-  },
-  {
-    name: "Gallery Slider",
-    routerPath: "gallery-slider",
-  },
-  {
-    name: "Grid Single",
-    routerPath: "grid-single",
-  },
-  {
-    name: "Classic Details",
-    routerPath: "portfolio-details-v1",
-  },
-];
-const Blogs = [
-  {
-    name: "Blog Version 01",
-    routerPath: "/blog-v1",
-  },
-  {
-    name: "Blog Version 02",
-    routerPath: "blog-v2",
-  },
-  {
-    name: "Blog Version 03",
-    routerPath: "blog-v3",
-  },
-  {
-    name: "Blog Version 04",
-    routerPath: "blog-v4",
-  },
-  {
-    name: "Blog Version 05",
-    routerPath: "blog-v5",
-  },
-  {
-    name: "Blog Version 06",
-    routerPath: "blog-v6",
-  },
-  {
-    name: "Blog Details",
-    routerPath: "blog-details",
-  },
-];
-const Docs = [
-  {
-    name: "Full Width",
-    routerPath: "/doc-full-width",
-  },
-  {
-    name: "Full Width Banner",
-    routerPath: "/doc-full-width-banner",
-  },
-  {
-    name: "Doc Box",
-    routerPath: "doc-box",
-  },
-  {
-    name: "Doc Box With Banner",
-    routerPath: "/doc-box-with-banner",
-  },
-  {
-    name: "Changelog",
-    routerPath: "/changelog",
+    name: "Exchanges",
+    routerPath: "/biq/exchanges",
   },
 ];
 
@@ -303,8 +168,8 @@ const MegaMenuMobile = () => {
         </SidebarHeader>
         <SidebarContent>
           <Menu>
-            <SubMenu title="Home">
-              {HomeMobileMenu.map((val, i) => (
+            <SubMenu title="Web4">
+              {Web4Dropdown.map((val, i) => (
                 <MenuItem key={i}>
                   <Link to={val.routerPath}>{val.name}</Link>
                 </MenuItem>
@@ -312,101 +177,19 @@ const MegaMenuMobile = () => {
             </SubMenu>
             {/* End Home SubMenu */}
 
-            <SubMenu title="Pages">
-              <SubMenu title="Pricing" className="plus alt">
-                {Pricing.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-
-              <SubMenu title="About Us" className="plus alt">
-                {AboutUs.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-              {/* End About SubMenu */}
-
-              <SubMenu title="Contact Us" className="plus alt">
-                {ContactUs.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-              {/* End Contact Us SubMenu */}
-
-              <SubMenu title="Team" className="plus alt">
-                {Team.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-              {/* End Team SubMenu */}
-              <MenuItem>
-                {" "}
-                <Link to="/faq"> FAQ</Link>
-              </MenuItem>
-              <MenuItem>
-                {" "}
-                <Link to="/faq-details"> Faq Details</Link>
-              </MenuItem>
-            </SubMenu>
-            {/* End Pages SubMenu */}
-
-            <SubMenu title="Features">
-              <SubMenu title="Services" className="plus alt">
-                {Services.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-              {/* End Services SubMenu */}
-              <SubMenu title="Miscellaneous" className="plus alt">
-                {Miscellaneous.map((val, i) => (
-                  <MenuItem key={i}>
-                    <Link to={val.routerPath}>{val.name}</Link>
-                  </MenuItem>
-                ))}
-              </SubMenu>
-              {/* End Miscellaneous SubMenu */}
-              <MenuItem>
-                {" "}
-                <Link to="/solution-management" className="dropdown-item">
-                  Our Solution
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                {" "}
-                <Link to="/product-customer-support" className="dropdown-item">
-                  Product Feature
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                {" "}
-                <Link to="/features-customer-support" className="dropdown-item">
-                  Our Features
-                </Link>
-              </MenuItem>
-            </SubMenu>
-            {/* End Feautres SubMenu */}
-
-            <SubMenu title="Portfolio">
-              {Portfolio.map((val, i) => (
+            <SubMenu title="Technology">
+              {Technology.map((val, i) => (
                 <MenuItem key={i}>
                   <Link to={val.routerPath}>{val.name}</Link>
                 </MenuItem>
               ))}
             </SubMenu>
             {/* End Portfolio SubMenu */}
-
-            <SubMenu title="Blogs">
-              {Blogs.map((val, i) => (
+            <MenuItem>
+              <Link to="/dao">DAO</Link>
+            </MenuItem>
+            <SubMenu title="Build">
+              {Build.map((val, i) => (
                 <MenuItem key={i}>
                   <Link to={val.routerPath}>{val.name}</Link>
                 </MenuItem>
@@ -414,7 +197,7 @@ const MegaMenuMobile = () => {
             </SubMenu>
             {/* End Blogs SubMenu */}
 
-            <SubMenu title="Docs">
+            <SubMenu title="BitcoinIQ">
               {Docs.map((val, i) => (
                 <MenuItem key={i}>
                   <Link to={val.routerPath}>{val.name}</Link>
@@ -423,7 +206,16 @@ const MegaMenuMobile = () => {
             </SubMenu>
             {/* End Docs SubMenu */}
             <MenuItem>
-              <Link to="/login">Login</Link>
+              <Link to="/roadmap">Roadmap</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link to="/manifesto">Manifesto</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link to="https://dash.bitwebs.org">Dashboard</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link to="/paper">Read Paper</Link>
             </MenuItem>
           </Menu>
         </SidebarContent>
