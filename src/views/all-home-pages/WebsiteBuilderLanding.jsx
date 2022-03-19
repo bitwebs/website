@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HeaderFour from "../../components/header/landing/HeaderFour";
+import HeaderFour from "../../components/header/HeaderFour";
 import HeroBannerHome from "../../components/hero-banner/HeroBannerHome";
 import CounterSix from "../../components/counter/CounterSix";
 import FooterSeven from "../../components/footer/FooterSeven";
