@@ -4,6 +4,7 @@ import React from "react";
 import Main from "../views/pages/Main";
 
 // All Web4 Routes
+import Web4 from "../views/inner-pages/other/Web4";
 import ParticalizedDataDistribution from "../views/pages/ParticalizedDataDistribution";
 import Decentralized from "../views/pages/Decentralized";
 import CensorshipResistant from "../views/pages/CensorshipResistant";
@@ -16,6 +17,7 @@ import ApplicationInteroperability from "../views/pages/ApplicationInteroperabil
 
 
 // All Technology Routes
+import Technology from "../views/inner-pages/other/Technology";
 import BitProtocol from "../views/pages/BitProtocol";
 import BitDht from "../views/pages/BitDht";
 import BitSwarm from "../views/pages/BitSwarm";
@@ -30,6 +32,7 @@ import BitNames from "../views/pages/BitNames";
 import Horiz0n from "../views/pages/Horiz0n";
 
 // Build Routes
+import Build from "../views/inner-pages/other/Build";
 import DevTools from "../views/inner-pages/features/DevTools";
 import BuildDapp from "../views/inner-pages/features/BuildApp";
 
@@ -61,6 +64,7 @@ const Routes = () => {
         <ScrollTopBehaviour />
         <Switch>
           <Route exact path="/" component={Main} />
+          <Route exact path="/web4" component={Web4} />
           <Route path="/web4/particalized-data-distribution" component={ParticalizedDataDistribution} />
           <Route path="/web4/decentralized-serverless-green" component={Decentralized} />
           <Route path="/web4/censorship-resistant" component={CensorshipResistant} />
@@ -71,6 +75,7 @@ const Routes = () => {
           <Route path="/web4/user-controlled-identity" component={UserControlledIdentity} />
           <Route path="/web4/application-interoperability" component={ApplicationInteroperability} />
           
+          <Route exact path="/technology" component={Technology} />
           <Route path="/technology/bit-protocol" component={BitProtocol} />
           <Route path="/technology/bitdht" component={BitDht} />
           <Route path="/technology/bitswarm" component={BitSwarm} />
@@ -86,10 +91,11 @@ const Routes = () => {
           
           <Route path="/dao" component={Dao} />
           
-          <Route path="/biq" component={Biq} />
+          <Route exact path="/biq" component={Biq} />
           <Route path="/biq/wallets" component={BiqWallets} />
           <Route path="/biq/exchanges" component={BiqExchanges} />
           
+          <Route exact path="/build" component={Build} />
           <Route path="/build/tools" component={DevTools} />
           <Route path="/build/dapp" component={BuildDapp} />
           
