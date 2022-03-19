@@ -166,7 +166,7 @@ const MegaMenu = () => {
           </li>
           {/* End li */}
           
-      <li key={i} className="nav-item">
+      <li className="nav-item">
          <a href="/dao" className="nav-link">
            DAO
          </a>
@@ -209,13 +209,13 @@ const MegaMenu = () => {
           </li>
           {/* End li */}
       
-      <li key={i} className="nav-item">
+      <li className="nav-item">
          <a href="/roadmap" className="nav-link">
            Roadmap
          </a>
       </li>
       
-      <li key={i} className="nav-item">
+      <li className="nav-item">
          <a href="/manifesto" className="nav-link">
            Manifesto
          </a>

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-router-dom";
 import Modal from "react-modal";
+import MegaMenu from "../mega-menu/MegaMenu";
+import MegaMenuMobile from "../mega-menu/MegaMenuMobile";
 import HeaderPopupForm from "../../form/HeaderPopupForm";
 
 Modal.setAppElement("#root");

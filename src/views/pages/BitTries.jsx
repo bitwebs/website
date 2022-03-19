@@ -26,7 +26,7 @@ const BitTries = () => {
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderLandingDocSignature />
+      <HeaderTechnology />
       {/* End Header Landing Doc Signature */}
 
       <HeroBannerBitTries />

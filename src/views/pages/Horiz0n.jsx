@@ -26,7 +26,7 @@ const Horiz0n = () => {
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderLandingDocSignature />
+      <HeaderTechnology />
       {/* End Header Landing Doc Signature */}
 
       <HeroBannerHoriz0n />

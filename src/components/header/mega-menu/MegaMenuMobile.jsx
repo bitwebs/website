@@ -118,7 +118,7 @@ const Build = [
   },
 ];
 
-const BIQ = [
+const Biq = [
   {
     name: "About BIQ",
     routerPath: "/biq",
@@ -198,7 +198,7 @@ const MegaMenuMobile = () => {
             {/* End Blogs SubMenu */}
 
             <SubMenu title="BitcoinIQ">
-              {Docs.map((val, i) => (
+              {Biq.map((val, i) => (
                 <MenuItem key={i}>
                   <Link to={val.routerPath}>{val.name}</Link>
                 </MenuItem>
